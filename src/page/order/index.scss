@@ -1,0 +1,109 @@
+.user {
+    .panel-body {
+        .search-con {
+            float: left;
+            height: 40px;
+            margin: 10px 0px 10px 91px;
+            text-align: center;
+            padding: 2px 0px; 
+            .select {
+                float: left;
+                width: 160px;
+                font-size: 16px;
+            }
+            .keyword {
+                float: left; 
+                width: 160px;
+                margin: 0px 10px;
+            }
+        }
+        
+        .order-table {
+            width: 85%;
+            margin: 5px auto;
+            th {
+                text-align: center;
+                font-weight: normal;
+                line-height: 18px;
+                font-size: 18px;
+            }
+            td {
+                text-align: center;
+                font-size: 16px;
+                font-weight: normal;
+            }
+            .order-id {
+                width: 20%;  
+            }
+            .order-receiver {
+            	width: 15%;
+            }
+            .order-status {
+            	width: 15%;
+            }
+            .order-price {
+            	width: 15%;
+            }
+            .order-time {
+                width : 20%
+            }
+            .order-operate {
+            	width: 15%;
+                .label {
+                    font-size: 13px;
+                    padding: 6px ;
+                }
+            }
+        }
+        
+        // 订单商品表格
+        .orderItemTable {
+            width : 80%;
+            margin: 5px auto;
+            th {
+                text-align: center;
+                font-weight: normal;
+                line-height: 18px;
+                font-size: 18px;
+            }
+            td {
+                text-align: center;
+                font-size: 16px;
+                font-weight: normal;
+            }
+            
+            .product-img {
+                width: 11%;
+                .img-product {
+                    width: 85px;
+                    height: 85px;
+                    border: 1px solid #eee;
+                }
+            }
+            .product-info {
+                width: 44%;
+            }
+            .productInfo{
+                margin-top: 30px;
+            }
+            .product-price {
+                width: 15%;
+            }
+            .productPrice {
+                margin-top: 30px;
+            }
+            .product-count {
+                width: 15%;
+            }
+            .productCount {
+                margin-top: 30px;
+            }
+            .product-total {
+                width: 15%;
+            }
+            .productTotal {
+                margin-top: 30px;
+            }
+        }
+    } 
+}

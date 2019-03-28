@@ -1,0 +1,50 @@
+ body {
+     background: #e0e0e0;
+     width: 100%;
+     margin: 0px;
+     padding: 0px; 
+ }
+ a {
+     cursor: pointer;
+     text-decoration: none;
+     outline: none;
+ }
+ button {
+    outline: none; 
+    text-decoration: none;
+ }
+ .wrapper {
+     width: 100%;
+ }
+ #page-wrapper{
+    width: 81%;
+    margin: -9px 0px 0px -1px;
+    padding: 0px;
+    float: left;
+ }
+ 
+.panel {
+    border-radius: 0px;
+    background: #eee;
+    margin: 0px;
+    padding: 0px;
+    .panel-heading {
+        border-radius: 0px;
+        background: #2dafcb;
+        color: #fff;
+        height: 55px;
+        .panel-title {
+            font-size: 23px;
+            height: 55px;
+            line-height: 38px;
+        }
+    }
+    .panel-body{
+        min-height: 642px;
+        max-height: 642px;
+        background: #fff;
+        font-size: 18px;
+        overflow-x:auto;
+        overflow-y:auto
+    }
+}

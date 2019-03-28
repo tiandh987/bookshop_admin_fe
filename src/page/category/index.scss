@@ -1,0 +1,89 @@
+a {
+    cursor: pointer;
+}
+.category{
+    .panel-body{
+        .parentId{ 
+            float: left;
+            margin-left: 120px;
+            margin-top: 13px;
+        }
+        .category-add{
+        	font-size: 15px;
+            text-align: center;
+            height: 38px;
+            line-height: 26px;
+            float: right;
+            margin-right: 122px;
+            font-weight: bolder;
+            padding-right: 13px;
+        }
+        .category-table{
+            margin-top: 50px;
+            text-align: center;
+            
+            .table-bordered{
+                width: 80%;
+                margin: 0px auto;
+                
+                th{
+                    text-align: center;
+                    font-size: 16px;
+                }
+                
+                tbody{
+                    td {
+                        font-size: 15px;
+                        line-height: 16px;
+                    }
+                }
+                
+                .category-id{
+                    width: 15%;
+                }
+                .category-name{
+                    width: 50%;
+                }
+                .category-operate{
+                    width: 35%;
+                }
+            }
+        }
+    }
+}
+
+// 添加品类
+.category-add {
+    .category-add-con {
+        margin: 50px 90px;
+        width: 350px;
+        label {
+            float: left;
+            margin-top: 15px;
+        }
+        .parent-category {
+            float: left;
+            width: 250px;
+            margin: 10px;
+            font-size: 16px;
+            height: 32px;
+            line-height: 32px;
+        }
+        .category-name {
+            float: left;
+            width: 250px;
+            margin: 10px;
+            height: 32px;
+            font-size: 16px;
+            line-height: 32px;
+        }
+        .btn-add {
+            margin-left: 83px;
+            margin-top: 10px;
+            width: 75px;
+            height: 35px;
+            line-height: 23px;
+            font-size: 16px;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.login {
+    .panel { 
+        margin: 0px;
+        padding: 0px;
+        width: 380px;
+        margin: 200px auto;
+        .panel-heading {
+            height: 50px;
+            border-radius: 3px;
+            background: #337ab7;
+            text-align: center;
+            .panel-title {
+                font-size: 18px;
+            }
+        }
+        .panel-body {
+            min-height: 175px;
+            max-height: 175px;
+            .btn {
+                height: 39px;
+                font-size: 17px;
+            }
+        }
+    }
+}

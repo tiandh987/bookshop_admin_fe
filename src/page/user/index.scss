@@ -1,0 +1,36 @@
+.user{
+    .user-table{
+        .table{
+            width: 80%;
+            margin: 25px auto;
+            font-weight: normal;
+            tr {
+                th{ 
+                    text-align: center;
+                    font-size: 18px;
+                }
+                td{
+                    text-align: center;
+                    font-size: 15px;
+                }
+                height: 30px;
+                line-height: 30px;
+                .user-id{
+                    width: 10%;
+                }
+                .user-name{
+                	width: 15%;
+                }
+                .user-email{
+                	width: 25%;
+                }
+                .user-phone{
+                	width: 25%;
+                }
+                .user-time{
+                	width: 25%;
+                }
+            }
+        }
+    }
+}

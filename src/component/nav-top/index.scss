@@ -1,0 +1,36 @@
+.navbar {
+    height: 60px;
+    background: #e0e0e0;
+    width: 1500px;
+    border: none;
+} 
+.navbar-default{
+    margin-bottom: 0;
+}
+.brand {
+    float: left;
+    background: #333;
+    opacity: 0.9;
+    width: 289px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 35px;
+    > a {
+        color: #58c9ed;
+        text-decoration: none;
+    }
+    > a:hover{
+        text-decoration: none;
+        color: #58c9ed;
+    } 
+}
+.navbar-text{
+    font-size: 20px;
+}
+.btn-login:hover {
+    text-decoration: none;
+}
+.btn-logout {
+    cursor: pointer;
+}
