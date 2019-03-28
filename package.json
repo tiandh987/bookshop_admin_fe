@@ -1,5 +1,5 @@
 { 
-  "name": "admin_fe",
+  "name": "bookshop_admin_fe",
   "version": "1.0.0",
   "description": "后台管理系统前端",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tiandh987/admin_fe.git"
+    "url": "git+https://github.com/tiandh987/bookshop_admin_fe.git"
   },
   "author": "tiandenghao",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tiandh987/admin_fe/issues"
+    "url": "https://github.com/tiandh987/bookshop_admin_fe/issues"
   },
-  "homepage": "https://github.com/tiandh987/admin_fe#readme",
+  "homepage": "https://github.com/tiandh987/bookshop_admin_fe#readme",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "braft-editor": "^2.1.36",

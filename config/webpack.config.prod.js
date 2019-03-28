@@ -16,7 +16,7 @@ module.exports = {
 	output: {
 		filename: 'js/[name].js',
 		path: resolve('dist'),
-        publicPath: '//47.95.255.212:8082/admin_fe/dist/'
+        publicPath: '//47.95.255.212:8082/bookshop_admin_fe/dist/'
 	},
 	resolve: {
 		alias: {
