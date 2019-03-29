@@ -16,9 +16,9 @@ export default class MMUtil extends React.Component {
                 url      : param.url      || '',
                 dataType : param.dataType || 'json',
                 data     : param.data     || '',
-//                 xhrFields : {
-//                 	withCredentials : true
-//                 },
+                xhrFields : {
+                	withCredentials : true
+                },
                 success  : res => {
                     // 请求成功
                     if (0 === res.status) {

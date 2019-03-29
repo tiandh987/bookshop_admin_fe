@@ -166,9 +166,9 @@ export default class ProductSave extends React.Component {
       	$.ajax({
       		url   : 'http://47.95.255.212:8080/manage/product/upload.do',
       		type  : 'POST',
-//       		xhrFields : {
-//       			withCredentials : true
-//       		},
+      		xhrFields : {
+      			withCredentials : true
+      		},
       		data  : params,
       		cache : false,
       		contentType : false,
