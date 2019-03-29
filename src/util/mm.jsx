@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 const conf = {
-    serverHost : 'http://47.95.255.212',
+    serverHost : 'http://47.95.255.212:8080',
     //serverHost : 'http://localhost:8080',
     imageHost  : 'http://47.95.255.212:8081/'
 };

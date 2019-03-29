@@ -164,7 +164,7 @@ export default class ProductSave extends React.Component {
       var $this = this;
       if (this.state.subImages.length < 5) {
       	$.ajax({
-      		url   : 'http://47.95.255.212/manage/product/upload.do',
+      		url   : 'http://47.95.255.212:8080/manage/product/upload.do',
       		type  : 'POST',
 //       		xhrFields : {
 //       			withCredentials : true
